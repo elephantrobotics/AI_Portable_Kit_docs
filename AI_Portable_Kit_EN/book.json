@@ -9,7 +9,8 @@
     "search-pro",
     "theme-fexa",
     "splitter",
-    "-sharing"
+    "-sharing",
+	"klipse"
   ],
   "variables": {
         "themeFexa":{
@@ -19,26 +20,12 @@
     },
    "pluginsConfig": {
     "theme-fexa":{
-      "search-placeholder":"输入关键字搜索", 
+      "search-placeholder":"Input Keywords to Search", 
       "logo":"/photo/logo.png",
+      "logoLink":"https://www.elephantrobotics.com/en",
       "favicon": "./favicon.ico"
     },
     "password": {
-      "model": "file",
-      "settings": {
-        "4-myCobotKit/1-intelligent_storage_kit.md": {
-          "password": "intwa",
-          "bg-img": "https://www.elephantrobotics.com/docs/myCobot/suit-img/Banner-1.png"
-        },
-        "4-myCobotKit/2-ai_kit.md": {
-          "password": "aiint",
-          "bg-img": "https://www.elephantrobotics.com/docs/myCobot/suit-img/Banner-2.jpg"
-        },
-        "4-myCobotKit/3-industrial4.0_Kit.md": {
-          "password": "ind40",
-          "bg-img": "https://www.elephantrobotics.com/docs/myCobot/suit-img/Banner-3.jpg"
-        }
-      }
     }
   }
 }
