@@ -28,32 +28,32 @@
 
 ![P210X_install](../resources/7-BasicFunctionApplication/7.1/CP210X_install.gif)
 
-###  [1.2 更新设备固件](4.1-myStudio/4.1.2-myStudio_flash_firmwares.md)
+###  [1.2 更新设备固件](./7.1-myStudio/7.1.2-myStudio_flash_firmwares.md)
 
 在开发前，用户请确认自己所使用的设备固件是否为最新版的固件，以便于用户在后续开发中更好的使用该设备。
 
 用户可通过 **myStudio**进行设备固件的更新。
 
-##  [**2 出厂固件介绍**](4.2-firmwares_intro/README.md)
+##  [**2 出厂固件介绍**](https://docs.elephantrobotics.com/docs/mycobot_280_m5_cn/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/)
 
-###  [2.1 拖动示教](4.2-firmwares_intro/4.2.1-moving/README.md)
+###  [2.1 拖动示教](https://docs.elephantrobotics.com/docs/mycobot_280_m5_cn/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/5.3.1-moving/5.3.1.1-micro_controller.html)
 
 机器人拖动示教，就是操作员可以直接拖着机器人各关节，运动到理想的姿态，记录下来。协作机器人是较早具有该功能的系统。这种示教方式可以避免传统示教的各种缺点，是机器人中一项很有应用前景的技术。
 
-###  [2.2 校准机械臂](4.2-firmwares_intro/4.2.2-calibration/README.md)
+###  [2.2 校准机械臂](https://docs.elephantrobotics.com/docs/mycobot_280_m5_cn/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/5.3.2-calibration/5.3.2.1-micro_controller.html)
 
 校准机械臂是对机械臂精准控制的前提，设置关节零位，初始化电机的电位值是后续进行进阶开发的基础。
 
-###  [2.3 通讯转发](4.2-firmwares_intro/4.2.3-transponder/README.md)
+###  [2.3 通讯转发](https://docs.elephantrobotics.com/docs/mycobot_280_m5_cn/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/5.3.3-transponder/5.3.3.1-micro_controller.html)
 
 通讯的时效性对于微控制器机械臂至关重要，对于微控制器机械臂来说，我们通常对底部的 **Basic** 发送控制指令，通过通讯转发，末端执行器将对指令进行解析，继而执行目标动作。目前 **微控制类设备** 的通讯方式有：**串口通讯**、**蓝牙通讯**、**WIFI通讯**。用户可选择适用的通讯方式，进行编程操作。
 
-###  [2.4 连接检测](4.2-firmwares_intro/4.2.4-connection/README.md)
+###  [2.4 连接检测](https://docs.elephantrobotics.com/docs/mycobot_280_m5_cn/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/5.3.4-connection/5.3.4.1-micro_controller.html)
 
 连接检测是一项用机械臂中电机以及 **Atom** 连接状态的检测功能。这项功能便于客户排除设备故障。
 
 连接检测中看到机械臂的设备连接状态，包括 **舵机的连接** 以及 **Atom 的通讯状态**。**微控制器类设备** 中  Basic 上会显示设备的当前固件版本。
 
-##  [**3 首次使用**](4.3-quick_start.md)
+##  [**3 首次使用**](./)
 
 了解了固件的现有功能后，请随着本章节的步骤，开始连接、固定机器，并开始应用设备的基础功能。
