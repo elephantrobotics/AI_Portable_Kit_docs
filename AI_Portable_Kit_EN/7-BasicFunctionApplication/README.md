@@ -61,6 +61,6 @@ Link test is a detection function that uses the motor in the robot arm and the c
 
 During the link test, the connection state of the equipment for the robot arm, including the **connection of the servo** and the **communication state of Atom** can be seen. In micro-controller devices, the versions of their current firmwares are shown on M5Stack-basic.
 
-## [3 Use for the first time](4.3-quick_start.md)
+## [3 Use for the first time](./)
 
 After knowing the current function of the firmware, connect and fix the machine by following the steps in this chapter, and start applying the basic functions of the equipment.
