@@ -10,7 +10,7 @@
   - [2.1 Ai Portable Training Box-280 Version](2-ProductFeature/2.1-280_version.md)
   - [2.2 Ai Portable Training Box-270 Version](2-ProductFeature/2.2-270_version.md)
   - [2.3 Ai Portable Training Box-260 Version](2-ProductFeature/2.3-260_version.md)
-  - [2.4 Adapter accessories](./)
+  - [2.4 Adapter accessories]()
     - [2.4.1 Adaptive gripper](2-ProductFeature/2.4.1-adaptive_gripper.md)
     - [2.4.2 Dexterous Hands](2-ProductFeature/2.4.2-five_hand.md)
     - [2.4.3 Vertical Suction Pump V2.0](2-ProductFeature/2.4.3-pump.md)
@@ -24,7 +24,7 @@
 
 - [4 First unboxing](4-FirstInstallAndUse/README.md)
 
-- [5 Basic algorithm functions](./)
+- [5 Basic algorithm functions]()
 
   - [5.1 Color recognition](5-BasicAlgorithmFunction/5.1-color_recognition.md)
   - [5.2 Shape Recognition](5-BasicAlgorithmFunction//5.2-shape_recognition.md)
@@ -33,15 +33,15 @@
   - [5.5 yolov5 recognition](5-BasicAlgorithmFunction/5.5-yolov5_recognition.md)
   - [5.6 Precautions](5-BasicAlgorithmFunction/5.6-precautions.md)
 
-- [6 Quick learning of robotic arm knowledge](./)
+- [6 Quick learning of robotic arm knowledge]()
 
   - [6.1 Knowledge Preparation](6-RoboticArmKnowledge/6.1-knowleged.md)
   - [6.2 Serial robots](6-RoboticArmKnowledge/6.2-Serial_robots.md)
   - [6.3 Electronics background knowledge](6-RoboticArmKnowledge/6.3-electric_knowledge.md)
   - [6.4 Electronics and servo knowledge](6-RoboticArmKnowledge/6.4-motors_and_servos.md)
-  - [6.5 Robot kinematics](./)
+  - [6.5 Robot kinematics]()
     - [6.5.1 myCobot Six-axis collaborative series](6-RoboticArmKnowledge/6.5-robot_kinematics.md)
-    - [6.5.2 myCobot Four-axis collaborative series](./)
+    - [6.5.2 myCobot Four-axis collaborative series]()
 
 - [7 Basic functional applications](7-BasicFunctionApplication/README.md)
   - [7.1 myStudio](7-BasicFunctionApplication/7.1-myStudio/README.md)
