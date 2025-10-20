@@ -1,59 +1,66 @@
-# 基础功能应用
+# Application of Basic Functions
 
 ## [**1 myStudio**](4.1-myStudio/README.md)
-在开始使用设备前，您首先需要**安装驱动以及更新设备固件**。
 
-### [1.1 安装驱动](4.1-myStudio/4.1.1-myStudio_download_driverinstalled.md)
+Before using the equipment, you have to **install the driver and update the firmware**.
 
-用户可根据自己所使用的操作系统，点击下方按钮下载相应的 **CP210X** 或 **CP34X** 驱动程序压缩包，在解压压缩包后，选择对应操作系统位数的安装包进行安装。
+### [1.1 Installing the driver](4.1-myStudio/4.1.1-myStudio_download_driverinstalled.md)
 
-目前存在两种驱动芯片版本， **CP210X** （适用于CP2104版本）/**CP34X** （适用于CH9102版本）驱动程序压缩包。若您不确定您的设备所使用的USB芯片，可同时安装两种驱动。（ **CH9102_VCP_SER_MacOS** 在安装过程中，可能出现报错，但实际上已经完成安装，忽略即可。）
+According to the operating system used by him, the user can click the button below to download the zip file of the corresponding **CP210X** or **CP34X** drivers. After decompressing the file, select and install the installation package corresponding to the operating system.
 
-对于 Mac OS，在安装之前确保系统 "偏好设置->安全性和隐私->通用" ，并允许从 App Store 和被认可的开发者。
+There are two kinds of driver chip versions: **CP210X** (suitable for CP2104 version)/**CP34X** (suitable for CH9102 version) driver zip files. If you are not sure of the USB chip used for your equipment, you can install two drivers at the same time. (During the installation of **CH9102_VCP_SER_MacOS**, an error may be reported; however, the
+installation has been done, and the error can be ignored.)
 
-- 下载底部 **M5Stack-basic** 串口驱动程序
+For Mac OS, ensure correct settings of the system "Preferred settings -> Security and privacy ->General" before installation, and allow the user to get it from App Store or an approved developer.
+
+- Download the **Basic** serial port driver **CP210X** 
+
   **CP210X**
-  
+
   - [ **Windows10** ](https://download.elephantrobotics.com/software/drivers/CP210x_VCP_Windows.zip)
   - [ **MacOS** ](https://download.elephantrobotics.com/software/drivers/CP210x_VCP_MacOS.zip)
   - [ **Linux** ](https://download.elephantrobotics.com/software/drivers/CP210x_VCP_Linux.zip)
-  
+
   **CP34X**
   - [ **Windows10** ](https://download.elephantrobotics.com/software/drivers/CH9102_VCP_SER_Windows.exe)
   - [ **MacOS** ](https://download.elephantrobotics.com/software/drivers/CH9102_VCP_MacOS.zip)
-  
-- 下载末端 **Atom** 串口驱动程序 
+
+
+- Download the **Atom** serial port driver for the end.
+
   - [ **Windows10** ](https://download.elephantrobotics.com/software/drivers/CDM21228_Setup.zip)
 
 
 ![P210X_install](../resources/7-BasicFunctionApplication/7.1/CP210X_install.gif)
 
-###  [1.2 更新设备固件](4.1-myStudio/4.1.2-myStudio_flash_firmwares.md)
+### [1.2 Updating equipment firmware](./7.1-myStudio/7.1.2-myStudio_flash_firmwares.md)
 
-在开发前，用户请确认自己所使用的设备固件是否为最新版的固件，以便于用户在后续开发中更好的使用该设备。
+Prior to development, the user is required to confirm whether his equipment firmware is the latest version so that he can use the equipment better during subsequent development.
 
-用户可通过 **myStudio**进行设备固件的更新。
+The user can update the firmware through **myStudio**.
 
-##  [**2 出厂固件介绍**](4.2-firmwares_intro/README.md)
+##  [2 Factory firmware introduction](https://docs.elephantrobotics.com/docs/mycobot_280_m5_en/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/)
 
-###  [2.1 拖动示教](4.2-firmwares_intro/4.2.1-moving/README.md)
+### [2.1 Drag teaching](https://docs.elephantrobotics.com/docs/mycobot_280_m5_en/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/5.3.1-moving/5.3.1.1-micro_controller.html)
 
-机器人拖动示教，就是操作员可以直接拖着机器人各关节，运动到理想的姿态，记录下来。协作机器人是较早具有该功能的系统。这种示教方式可以避免传统示教的各种缺点，是机器人中一项很有应用前景的技术。
+Robot drag teaching is a process during which the operator can drag the joints of the robot directly to make them do ideal postures and then make records corresponding thereto. The cobot is a system that has this function earlier. This kind of teaching avoids various disadvantages of traditional teaching, so it is a prospective technology for robot
+applications.
 
-###  [2.2 校准机械臂](4.2-firmwares_intro/4.2.2-calibration/README.md)
+### [2.2 Robot arm calibration](https://docs.elephantrobotics.com/docs/mycobot_280_m5_en/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/5.3.2-calibration/5.3.2.1-micro_controller.html)
 
-校准机械臂是对机械臂精准控制的前提，设置关节零位，初始化电机的电位值是后续进行进阶开发的基础。
+Calibrating the robot arm is the precondition for precise control of the robot arm, and setting joint zero and initializing the potential of the motor are basic jobs for subsequent advanced development.
 
-###  [2.3 通讯转发](4.2-firmwares_intro/4.2.3-transponder/README.md)
+### [2.3 Communication forwarding](https://docs.elephantrobotics.com/docs/mycobot_280_m5_en/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/5.3.3-transponder/5.3.3.1-micro_controller.html)
 
-通讯的时效性对于微控制器机械臂至关重要，对于微控制器机械臂来说，我们通常对底部的 **Basic** 发送控制指令，通过通讯转发，末端执行器将对指令进行解析，继而执行目标动作。目前 **微控制类设备** 的通讯方式有：**串口通讯**、**蓝牙通讯**、**WIFI通讯**。用户可选择适用的通讯方式，进行编程操作。
+Communication timeliness is vital to the micro-controller robot arm. For such arm, we often send control instructions to **M5Stack-basic** at the bottom. Through communication forwarding, the end effector analyzes the instructions and then implements target actions. At present, micro-controller devices have three methods of communication: **serial port, Bluetooth, and WIFI**. The user may choose an applicable method of
+communication for programming.
 
-###  [2.4 连接检测](4.2-firmwares_intro/4.2.4-connection/README.md)
+### [2.4 Connection detection](https://docs.elephantrobotics.com/docs/mycobot_280_m5_en/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/5.3.4-connection/5.3.4.1-micro_controller.html)
 
-连接检测是一项用机械臂中电机以及 **Atom** 连接状态的检测功能。这项功能便于客户排除设备故障。
+Link test is a detection function that uses the motor in the robot arm and the connection state of **Atom**. The function allows the user to remove equipment faults easily.
 
-连接检测中看到机械臂的设备连接状态，包括 **舵机的连接** 以及 **Atom 的通讯状态**。**微控制器类设备** 中  Basic 上会显示设备的当前固件版本。
+During the link test, the connection state of the equipment for the robot arm, including the **connection of the servo** and the **communication state of Atom** can be seen. In micro-controller devices, the versions of their current firmwares are shown on M5Stack-basic.
 
-##  [**3 首次使用**](4.3-quick_start.md)
+## [3 Use for the first time](4.3-quick_start.md)
 
-了解了固件的现有功能后，请随着本章节的步骤，开始连接、固定机器，并开始应用设备的基础功能。
+After knowing the current function of the firmware, connect and fix the machine by following the steps in this chapter, and start applying the basic functions of the equipment.

@@ -1,226 +1,235 @@
-# 用户须知
+# User Notice
 
 ![learning](../resources/3-UserNotes/3.1-1.png)
 
-## 3.1 本书阅读目标
-本书的设计目标是通过阅读本书，您可以
-> 主要目标
+## 3.1 The target of reading the book
 
-- 了解机械臂相关的机械、电子、软件的基本使用。
-- 了解机械臂的基本原理，关节，坐标，术语，控制等。会进行简单的正逆运动学计算。
-- 了解API控制机械臂与myBlockly图形化编程语言控制机械臂的基本操作。
+The book is designed to help you reach the following targets.
 
-> 扩展目标
+> Main targets
 
-- 了解机器视觉相关的图像识别算法。
-- 了解机器人视觉场景的搭建与视觉与机械臂的配合方法与策略。
-- 具备完成**人工智能**套装的所有技能。
+-   Understand the basic use of mechanisms, electronics and software
+    related to robot arms.
+-   Understand the basic principle, joints, coordinates, terms, control
+    and other information of the robot arm. Able to do simple forward
+    and inverse kinematics calculations.
+-   Understand the basic operations of API-controlled robot arms and the
+    robot arms controlled by myBlockly graphical programing language.
 
----
+> Extended targets
 
-## 3.2 您的背景划分
-本书的阅读需要根据您的实际背景来进行阅读，我们将背景与相关知识划分成三个不同程度：
+-   Understand the image recognition algorithms related to machine
+    vision.
+-   Understand the building of robot vision scenes and the methods and
+    strategies of coordination between vision and robot arm.
+-   Grasp all skills of artificial intelligence (AI) packages.
 
+## 3.2 Division of your background
 
-程度   |背景  |具备技能  |预计学习时间|建议开发平台
+You should read the book based on your background. We divide the
+background and related knowledge into three degrees:
+
+Degree   |Background  |Skills  |Estimated time of learning|Recommended platform
  ---- | ----  |----  |----  |----  
-**入门**|信息，电子，机械，自动化相关专业	|了解一种编程语言<br>了解电子相关基础知识| 100小时 | myBlockly
-**高级**|了解Arduino或类似硬件产品；<br>了解舵机、编程；<br>了解IO接口等		|会调试API，调试接口，了解通信| 50小时 | Arduino
-**专业**|曾使用过至少1种工业或消费类机械臂；<br>具备硬件与软件开发能力	|了解机械臂笛卡尔坐标<br>了解关节控制<br>了解机器人的基本使用| 30小时| 任意
+**Beginner**|Specialty related to information, electronics and automation|Understand a kind of programming language and the basic knowledge related to electronics| 100 hours | myBlockly
+**Advanced**|Understand Arduino or similar hardwares, servo and programming, IO interface, etc		|Able to debug API and interfaces, and understand communication| 50 hours | Arduino
+**Professional**|The readers used at least one industrial or consumer robot arms, and have the ability to develop hardware and software	|Understand the Cartesian coordinate system, joint control, and basic use of robots| 30 hours| Random
 
----
+## 3.3 Learning Steps and Time
 
-## 3.3 学习步骤与时间
-
-序号|目标知识点 |理论|实践 |预计学时  
+No.|Target knowledge points |Theory|Practice |Estimated hours of learning  
  ---- | ---- |---- |----  |----  
-1 |**快速开箱**  		|1 拖动试教 		|1 myCobot机器人所包括配件 <br> 2 驱动机器人进行拖动试教|1小时  	
-2 |**背景-知识学习** 	|1 工业机器人使用背景 <br>2  坐标与空间学习，笛卡尔三维坐标与旋转，xyz<br>3 工业机器人关节与坐标控制|1 机器人关节控制与复现<br>2 机器人速度控制<br>3 机器人坐标点位控制与循环|5小时  	
-3 |**硬件-学习**  	|1 嵌入式电子原理与操作 <br> 2 舵机与电机原理与知识 <br> 3 	执行器学习	|1 M5Stack-basic/atom控制与驱动  <br> 2 舵机驱动与运动 <br> 3 机器人配件学习	|5小时 	
-4 |**软件-固件与更新**  	|1 识别不同的软件平台与使用目的<br> 2 固件加载与适配原理|1 选择适合你的开发平台<br> 2 下载与更新相应固件 |2小时   
-5 |**软件-开发环境搭建** 	|1 Arduino平台搭建 <br> 2 Arduino库文件下载与更新 <br> 3 了解串口通信|1 Arduino平台熟悉<br> 2 加载库 <br> 3 操作运行第一行代码 |2小时   
-6 |**机器人库学习与开发**  |1 机器人基础通讯与操作类型 <br> 2 机器人常见操作方式 <br> 3 方向模式与坐标模式控制 |1 与机器人进行通讯 <br> 2 控制机器人进行运动 <br> 3 操作机器人的IO口，夹爪等信号	|5小时   
-7 |**myBlockly操作机械臂**  |1 了解图形化编程语言界面基本架构与关系：传感器、执行器与流程<br>2 变量、循环与判断<br>3 机械臂控制方法|1 显示M5Stack-basic中不同字体<br>2 根据M5Stack-basic三个按钮让机械臂走不同的位置<br>3 控制机械臂循环走多个点位|10小时  
-8 |**roboFlow使用**  	|1 机器人常用工业操作系统学习<br>2 roboFlow常用模块学习：点位、快速移动、IO控制与输入<br>3 roboFlow高级模块学习：循环，判断、托盘程序  		|1 操控机械臂运动<br>2 IO输入与输出基本控制<br>3 循环控制与判断|5小时   
-9 |**图像识别相关算法**  |1 常用颜色识别方法与策略<br>2 常用形状识别方法与策略<br>3 常用面积识别方法与策略<br> |1 搭建ROS环境<br>2 不同颜色读取<br>3 不同形状识别<br> |20小时 
-10 |**视觉与机器人联调** |1 关联世界与相机坐标系<br>2 二维码图像标定<br>3 移动与矫正  		|1 操作机械臂到相机坐标系<br>2 机械臂在相机坐标系内运动<br>3  重新标定与设定|10小时  
-11 |**人工智能套装** 		|1 流程图学习与制作<br>2 电气连接图学习与制作<br>3 图像识别分类等操作策略  		|1 传感器连接<br>2 夹爪执行器连接与驱动<br>3 机械臂驱动与视觉联调|20小时  
+1 |**Quick unpacking**  		|1 Drag teaching 		|1. The accessories for myCobot <br>2. drive the robot to perform drag teaching|1 hour
+2 |**Background knowledge learning** 	|1. Use background of industrial robots;  <br>2. coordinate and space learning, and Cartesian 3D coordinate and rotation, xyz;  <br>3. joint and coordinate control of industrial robots|1. Joint control and recurrence of robot joints <br>2. speed control of robots <br>3. control and cycle of robot coordinate points|5 hours  	
+3 |**Hardware learning**  	|1. Principles and operations of embedded electronics <br>2. the principle and knowledge of servo and motor <br>3. actuator learning|1. Basic/atom control and driving <br>2. driving and motion of servo <br>3. robot accessory learning	|5 hours 	
+4 |**Software and firmware and their updating**  	|1. Identify different software platforms and their use <br>2. firmware loading and adaptation principle|1. Select the developing platform suitable for you <br>2. load and update the corresponding firmware. |2 hours   
+5 |**Building of software development environment** 	|1. Build Arduino platform <br>2. load and update of Arduino library file <br>3. understand serial communication|1. Familiar with Arduino platform <br>2. load a library <br>3. operate and run the first line of codes |2 hours   
+6 |**Learning and development of robot library**  |1. Basic communication and operation types of robots <br>2. common operating methods of robots <br>3. control of direction and coordinate modes |1. Communicate with the robot <br>2. control the robot to move <br>3. operate the IO interface, gripper, etc. of the robot;	|5 hours   
+7 |**myBlockly operation robot arm**  |1. Understand the basic architecture and relation of graphical programing language interfaces: sensor, actuator and procedure <br>2. variable, cycle and judgment <br>3. control method of robot arm|1. Display different fonts in the basic <br>2. make the robot arm move to different positions using three buttons of the basic <br>3. control the robot arm to make it move to several positions circularly|10 hours  
+8 |**The use of roboFlow**  	|1. Learn the industrial operating systems commonly used for robots <br>2. learn the common modules for roboFlow: point, quick movement, IO control and output <br>3. learn the advanced modules of roboFlow: cycle, judgment, and pallet program  		|1. Control the movement of the robot arm <br>2. basic control of IO input and output <br>3. cycle control and judgmen|5 hours   
+9 |**Algorithms related to image recognition**  |1. Common color recognition methods and strategies <br>2. common shape recognition methods and strategies <br>3. common area recognition methods and strategies |1. Building of a ROS environment <br>2. reading of different colors <br>3. recognition of different shapes |20 hours 
+10 |**Vision and the joint debugging of the robot** |1. Connect the world with a camera coordinate system <br>2. QR code image calibration <br>3. movement and correction 		|1. Operate the robot arm to the camera coordinate system <br>2. the robot arm moves in the camera coordinate system <br>3. recalibrate and set |10 hours  
+11 |**Artificial intelligence (AI) package** 		|1. Flow chart learning and making <br>2. electrical connection diagram learning and making <br> 3. operation strategies such as image recognition and classification, etc  		|1. Sensor connection <br>2. gripper actuator connection and driving <br>3. robot arm driving and visual joint debugging |20 hours  
 
 ---
 
-## 3.4 其他问题
+## 3.4 Additional problems
 
-如果以上学习内容无法满足您的实际使用需求，可以联系**大象机器人小管家**进行进一步沟通<br>
-我们提供软件与硬件的定制服务，费用根据**实际产生的成本**而定。
+If the above learning contents cannot meet your actual use needs, you
+can contact **Elephant Robotics helper** for further communication. We
+provide customized services for software and hardware, and the service
+fee is based on the **actual cost**.
 
-## 3.5 售后 FQA
+## 3.5 After-Sales FQA
 
-### 3.5.1 软件相关
+### 3.5.1 Software Related
 
 #### 1 关于python
 
-**Q：send_coords([x,y,z,rx,ry,rz], speed, 1)这个API中的各个参数是什么意思，rx、ry、rz是对应的是欧拉角的什么？欧拉角的旋转顺序是？以及各个参数的取值范围是多少？**
+**Q: What do the various parameters in the send_coords([x,y,z,rx,ry,rz], speed, 1) API mean? What Euler angles do rx, ry, and rz correspond to? What is the rotation order for Euler angles? What is the range of values ​​for each parameter?**
 
-- A：前面数组里的参数是机械臂的末端坐标，speed是速度，最后一个参数是运动模式。rx、ry、rz对应的应是rpy，也就是分别对应roll，pitch，yaw。欧拉角顺序是zyx，zyx是自身坐标。X、Y、Z取值范围是-300~300.00（取值范围未定义，超出范围会返回 inverse kinematics no solution提示），rx、ry、rz 取值范围是-180~180。
-  
-**Q：python API的示例教程是否提供？**
+- A: The parameters in the first array are the end-of-arm coordinates, speed is the speed, and the last parameter is the motion mode. rx, ry, and rz should correspond to rpy, which corresponds to roll, pitch, and yaw, respectively. The order of Euler angles is zyx, where zyx is the local coordinate. The range of X, Y, and Z values ​​is -300 to 300.00 (the range is undefined; if it exceeds the range, the error "inverse kinematics no solution" will be displayed). The range of rx, ry, and rz values ​​is -180 to 180.
 
-- A：目前有demo，在github的Test文件夹下有测试代码，用终端执行即可。 https://github.com/elephantrobotics/pymycobot/tree/main/demo 
+**Q: Are there example tutorials for the Python API?**
 
-**Q：mycobot280-Pi的python拖动示教demo如何运行？**
+- A: A demo is currently available. The test code is in the Test folder on GitHub; you can execute it in a terminal. https://github.com/elephantrobotics/pymycobot/tree/main/demo
 
-- A：在终端运行，波特率请输入1000000。
+**Q: How do I run the Python drag-to-teach demo for the mycobot280-Pi?**
 
-**Q：mycobot280-Pi用python零位校准demo程序，为什么会有误差？**
+- A: Run it in the terminal, and enter a baud rate of 1000000.
 
-- A：没有烧录atom固件，请先烧录atom固件再运行程序。
+**Q: Why is there an error in the Python zero-position calibration demo for the mycobot280-Pi?**
 
-**Q：不同版本机械臂的python API是否一样？**
+- A: The Atom firmware has not been burned. Please burn the Atom firmware first and then run the program.
 
-- A：API是一样的。
+**Q: Are the Python APIs the same for different robot arm versions?**
 
-#### 2 关于ROS
+- A: The APIs are the same.
 
-**Q：基于微控制器的机械臂和基于微处理器的机械臂如何运行ROS？**
+#### 2 About ROS
 
-- A：基于微控制器的机械臂我们目前是在Ubuntu上，需要下载虚拟机搭建虚拟环境，在虚拟环境里安装Ubuntu系统来运行ROS，您也可以自己开发自己的ROS。基于微处理器的机械臂是自带ROS环境的，可以直接使用。
+**Q: How do I run ROS on a microcontroller-based robot arm and a microprocessor-based robot arm?**
 
-**Q：基于微处理器的机械臂是否可以连接pc来使用ros和moveit呢？**
+- A: The microcontroller-based robot arm is currently running on Ubuntu. You need to download a virtual machine to create a virtual environment and install the Ubuntu system in the virtual environment to run ROS. You can also develop your own ROS. The microprocessor-based robot arm comes with a built-in ROS environment and can be used directly.
 
-- A：目前的开源资料是没有直接通讯控制的，可以通过 ros + socket，修改现有的节点文件，进行实现。
+**Q: Can a microprocessor-based robotic arm be connected to a PC to use ROS and MoveIT?**
 
-**Q：是否可以提供rviz模型的文件和编程案例？**
+- A: Current open-source documentation doesn't support direct communication control. This can be achieved by modifying existing node files using ROS + sockets.
 
-- A：我们的github上是有提供的。 https://github.com/elephantrobotics/mycobot_ros 
+**Q: Can you provide the RVIZ model files and programming examples?**
 
-**Q：使用ROS启动rviz模型文件时，为什么会报错报错permission denied：'/dev/ttyUSB0'？**
+- A: They are available on our GitHub repository: https://github.com/elephantrobotics/mycobot_ros
 
-- A：是因为没有给串口权限。应该在终端里输入sudo chmod 777 端口名称。
+**Q: Why does the error "Permission denied: '/dev/ttyUSB0'" appear when launching the RVIZ model file using ROS?**
 
-**Q：运行ros的滑块控制和模型跟随命令时，报错init（） takes exactly 2 arguments（3 given）是为什么？**
+- A: This is because the serial port permissions are not granted. You should enter "sudo chmod 777 port name" in the terminal.
 
-- A：没有安装和启动pymycobot库。
+**Q: Why does the error "init() takes exactly 2 arguments (3 given)" appear when running the slider control and model following commands in ROS?**
 
-**Q：在使用ROS时，打开rviz模型后机械臂角度和模型角度不一致是为什么？**
-- A：很可能是机械臂的零位没有校准，需要校准机械臂的零位。
+- A: The pymycobot library has not been installed and started.
 
-#### 3 关于myStudio
+**Q: Why do the robotic arm angles and model angles differ after opening the RVIZ model using ROS?**
+- A: The robot's zero position is likely out of calibration. Calibration is required.
 
-**Q：myStudio是什么？**
+#### 3 About myStudio
 
-- A: 是我们公司自研软件。它是一款给我们公司推出的现有机械臂进行固件烧录或修改的工具。
-  
-**Q：MyCobot 320 M5-2020款和2022款使用的固件有什么区别吗？**
+**Q: What is myStudio?**
 
-- A：旧版本 320 固件使用要求如下 M5版本 ：minirobot1.0+atommain4.2； PI版本：ubuntu18.04+atommain4.1； 新版本 320 固件使用要求如下 M5版本 ：minirobot2.1+picomain1.0+atommain5.0； PI版本：ubuntu18.04+picomain1.0+atommain5.0； 此固件组合截止到mystudio版本v4.3.1
+- A: It's our company's proprietary software. It's a tool for flashing or modifying the firmware for our existing robot arms.
 
-**Q：为什么我对ATOM终端烧录固件后设备无法正常运转？**
+**Q: Is there any difference in the firmware used for the MyCobot 320 M5-2020 and 2022 models?**
 
-- A：ATOM终端的固件需要使用我们出厂固件，使用中不能更改其他非官方固件，设备如意外烧录其他固件，可以使用“myCobot固件烧录器”选择ATOM终端-选择串口-选择ATOMMAIN固件对ATOM终端进行烧录。
+- A: The requirements for the old 320 firmware are as follows: M5 version: minirobot 1.0 + atommain 4.2; PI version: Ubuntu 18.04 + atommain 4.1; The requirements for the new 320 firmware are as follows: M5 version: minirobot 2.1 + picomain 1.0 + atommain 5.0; PI version: Ubuntu 18.04 + picomain 1.0 + atommain 5.0; This firmware combination is up to mystudio version 4.3.1.
 
-**Q：固件中的拖动示教是否可以记录夹爪动作？**
+**Q: Why doesn't the ATOM terminal work properly after I flashed the firmware to it?**
 
-- A：暂时无法实现使用拖动示教记录夹爪动作，因为夹爪属于编号7关节，我们的拖动示教只能做到对编号1-6关节的运动记录与播放。
+- A: The ATOM terminal firmware must use our factory firmware. Other unofficial firmware cannot be changed during use. If other firmware is accidentally flashed to the device, you can use the "myCobot Firmware Flasher" to flash the ATOM terminal by selecting the ATOM terminal, then the serial port, and then the ATOMMAIN firmware.
 
-**Q：烧录了minirobot固件之后仍然无法拖动示教是为什么？**
+**Q: Can the drag-to-teach feature in the firmware record gripper movements?**
 
-- A：首先检查一下是否M5Stack-basic固件与atom固件都烧录了，烧录的固件是否对应所要实现的需求以及烧录的是否是最新版本的固件。
-- 这里推荐将minirobot固件烧录至v2.1版本，顶部atommain固件烧录至v4.1版本及以上（需要支持mystudio版本在v4.3.1及以上）。
+- A: Currently, it's not possible to use drag-to-teach to record gripper movements because the gripper belongs to joint number 7. Our drag-to-teach feature can only record and play movements for joints numbers 1-6.
 
-**Q：mystudio上识别不到mycobot的串口怎么办？**
+**Q: Why can't I use drag-to-teach after flashing the minirobot firmware?**
 
-- A：如果您的电脑设备对连接的机械臂不提示，请先安装串口驱动。
-- 另外需要注意的是，树莓派、Arduino和Jetson nano系列机械臂是无法使用数据线连接到笔记本电脑的，需要在内置的系统中使用mystudio进行固件烧录。
+- A: First, check whether both the M5Stack-basic and atom firmware have been flashed, whether the flashed firmware meets the requirements, and whether the flashed firmware is the latest version.
+- We recommend flashing the minirobot firmware to v2.1 and the atommain firmware to v4.1 or later (this requires mystudio v4.3.1 or later).
 
-**Q：拖动示教录制轨迹，能否存到卡里？**
+**Q: What should I do if mystudio doesn't recognize the mycobot serial port?**
 
-- A：目前无法存到内存卡中。并且拖动示教只能一次存一条路径，下一次录制会覆盖之前的动作。
+- A: If your computer doesn't recognize the connected robotic arm, please install the serial port driver first.
+- Also, please note that Raspberry Pi, Arduino, and Jetson Nano series robotic arms cannot be connected to a laptop using a data cable. Firmware flashing requires using mystudio within the built-in operating system.
 
-### 3.5.2 硬件相关
+**Q: Can I save the trajectory recorded during drag-teaching to a memory card?**
 
-#### 1 关于结构
+- A: Currently, it is not possible to save to a memory card. Furthermore, drag-teaching can only save one path at a time; the next recording will overwrite the previous one.
 
-**Q：机械臂抖动的问题如何解决？**
+### 3.5.2 Hardware
 
-- A:进入mystudio，对机械臂的ATOM烧录最新版本的atommain固件。 然后更新pymycobot版本（Win+R输入cmd即可打开终 端），使用pip对pymycobot进行更新。 （此处输入pip install pymycobot --upgrade --user然后按回车运行）。 最后在github中找到pid_read_write.py文件，下载保存到您的电脑或者树莓派系统中。 按照代码中的提示修改对应舵机号的每一个参数配置。参数序号与图片展示的序号一一对应，修改后运行即可。
+#### 1 About the Structure
+
+**Q: How do I fix the robotic arm's shaking problem?**
+
+- A: Open mystudio and flash the latest version of atommain firmware to the robotic arm's ATOM. Then, update the pymycobot version (press Win+R and enter cmd to open the terminal). Use pip to update pymycobot (enter pip install pymycobot --upgrade --user and press Enter). Finally, find the pid_read_write.py file on GitHub, download it, and save it to your computer or Raspberry Pi. Follow the instructions in the code to modify each parameter configuration corresponding to the servo number. The parameter numbers correspond to the numbers shown in the image. After making changes, run the program.
 - ![learning](../resources/3-UserNotes/3.1-2.png)
 - ![learning](../resources/3-UserNotes/3.1-3.png)
 - ![learning](../resources/3-UserNotes/3.1-4.png)
 - ![learning](../resources/3-UserNotes/3.1-5.png)
 - ![learning](../resources/3-UserNotes/3.1-6.png)
 
-需要注意的是：每一款机械臂的的所有关节参数不是统一的，需要按照下图对应的机械臂型号做对照和修改。
-pid_read_write.py文件对应github链接：https://github.com/elephantrobotics/pymycobot/tree/main/demo 
+Note: All joint parameters are different for each robotic arm model. You'll need to compare and modify them based on the corresponding robotic arm model in the figure below.
 
-**Q: myCobot的关节的限位？**
+The pid_read_write.py file is available on GitHub: https://github.com/elephantrobotics/pymycobot/tree/main/demo
 
-- A: 一轴和五轴有限位，一轴顺时针约160°左右，逆时针160°左右。五轴可时针、逆时针可转动约160°
-**注意**：转动机械臂时应小角度、轻轻地转动，到达限位后就不可用力继续转动。
+**Q: What are the joint limits on myCobot?**
 
-**Q：六个舵机是由什么控制的？**
+- A: The first and fifth axes have limits. The first axis can rotate approximately 160° clockwise and 160° counterclockwise. The fifth axis can rotate approximately 160° clockwise and counterclockwise.
+**Note**: When rotating the robotic arm, rotate it gently and at a small angle. Do not force it further after reaching the limit.
 
-- A：舵机是由顶部的atom来进行控制的。
+**Q: How are the six servos controlled?**
 
-**Q：atom在机械臂中的作用是什么？**
+- A: The servos are controlled by the atom on top.
 
-- A：atom在机械臂中主要进行机械臂的运动学算法控制：包括了正逆运动学，选解，加减速，速度同步，多次方插补，坐标转换等，需要的实时控制与多线程等。atom的相关程序暂不开源。
+**Q: What is the role of the atom in the robotic arm?**
 
-**Q：基于微处理器的机械臂连接HDMI接口但显示屏无显示是为什么？是否需要下载串口驱动？**
+- A: The atom primarily controls the kinematic algorithms of the robotic arm, including forward and inverse kinematics, solution selection, acceleration and deceleration, speed synchronization, multi-power interpolation, coordinate transformation, and other functions, as well as the required real-time control and multithreading. The relevant Atom software is not currently open source.
 
-- A: 检查接线是否正确，电源开关是否开启。尝试更换HDMI接口，机械臂上有两个HDMI接口。接口部分要用力插稳。不需要下载串口驱动。
-- 还有另外一种情况就是您可能先给机械臂通了电然后再连接的HDMI线。这样也会导致显示器没有输入信号。您需要在机械臂不通电的情况下先将HDMI线完全连接好，然后再连接适配器（或者已经连接好适配器后拨动开关开机）。
+**Q: Why is there no display on the HDMI port of my microprocessor-based robotic arm? Do I need to download a serial port driver?**
 
-**Q：不同版本的机械臂支持什么通信接口？**
+- A: Check that the wiring is correct and the power switch is on. Try replacing the HDMI port. There are two HDMI ports on the robotic arm. Firmly plug the port firmly into the port. You don't need to download the serial port driver.
+- Another possibility is that you may have powered on the robotic arm before connecting the HDMI cable. This can also result in no input signal on the monitor. You need to fully connect the HDMI cable before connecting the adapter (or turn on the power switch after connecting the adapter) while the robotic arm is powered off.
 
-- A：基于微处理器的机械臂支持socket通信TCP；基于微控制器的机械臂可以USB转串口通信。
+**Q: What communication interfaces do different versions of the robotic arm support?**
 
-**Q：电机使用过程中自动断电，是为什么？**
+- A: Microprocessor-based robotic arms support TCP socket communication; microcontroller-based robotic arms can use USB-to-serial communication.
 
-- A：使用时间较长电机过热保护。此现象是正常现象，等待几分钟后即可继续使用。
+**Q: Why does the motor automatically power off during use?**
 
-**Q：机械臂是否支持安卓开发？**
+- A: The motor overheated after prolonged use. This is normal. Wait a few minutes before resuming use.
 
-- A：我们暂时并没有直接的安卓开发环境，需要自己开发，我们提供串口协议，串口可以二次开发。
+**Q: Does the robotic arm support Android development?**
 
-**Q：树莓派自带的USB接口有什么作用？**
+- A: We currently don't have a direct Android development environment, so you'll need to develop your own. We provide serial port protocols, and serial port development is possible.
 
-- A：树莓派4B自带USB插口，可以给树莓派供电，暂时无其他特别作用，不能作为通讯接口连接到笔记本电脑或者PC主机进行通讯。
+**Q: What is the function of the Raspberry Pi's built-in USB port?**
 
-#### 2 关于参数
-
-**Q: 机械臂的速度单位是什么？**
-
-- A: 运行速度180度/秒。
-
-**Q：mycobot280-M5通讯频率是多少呢？**
-
-- A：10-20Hz。
-
-#### 3 关于末端夹持器
-
-**Q: 自适应夹爪是不能完全闭合吗？**
-
-- A：夹爪本身是会有一定间隙存在，不是完全闭合的，您可以通过增加之间的垫片厚度调节。
+- A: The Raspberry Pi 4B has a built-in USB port that can power the Raspberry Pi. It currently has no other special function and cannot be used as a communication port to connect to a laptop or PC.
   
-**Q：mycobot280自适应夹爪是什么通讯？**
+#### 2 About Parameters
 
-- A：mycobot280自适应夹爪是ttl通讯。
+**Q: What is the unit of speed for the robot arm?**
 
-**Q：mycobot320末端提供什么通讯？**
+- A: The operating speed is 180 degrees/second.
 
-- A：mycobot320末端提供485通讯接口。
+**Q: What is the communication frequency for the mycobot280-M5?**
 
-**Q：如何将USB摄像头固定在机械臂末端呢？**
+- A: 10-20 Hz.
 
-- A：需要使用法兰固定，可以自主进行购买。
+#### 3 About the End Gripper
 
-### 3.5.4 售后联系方式
+**Q: Can the adaptive gripper not completely close?**
+
+- A: The gripper itself has a certain gap, so it is not completely closed. You can adjust this by increasing the thickness of the spacer between them.
+
+**Q: What communication method does the mycobot280 adaptive gripper use?**
+
+- A: The mycobot280 adaptive gripper uses TTL communication.
+
+**Q: What communication method does the mycobot320 end-user provide?**
+
+- A: The mycobot320 end-user provides a 485 communication interface.
+
+**Q: How do I attach a USB camera to the end-user arm?**
+
+- A: A flange is required, which you can purchase independently.
+
+### 3.5.4 After-sales contact information
 
 ---
 
-> 我们的工作时间为中国工作日，北京时间上午 10 点至下午 6 点。
+> Our working hours are China business days, 9:30 am to 7:00 pm Beijing time.
 
-  - 如果您有任何其他问题，请通过以下方式联系我们。  
+  - If you have any further questions, please contact us using the following methods.
+
 [E-mail](support@elephantrobotics.com) :
 
 <pre>
@@ -228,7 +237,8 @@ pid_read_write.py文件对应github链接：https://github.com/elephantrobotics/
 support@elephantrobotics.com
 </code>
 </pre>
-  - 如果您有购买意向或任何参数问题，请发送电子邮件至此邮箱。  
+  - If you have any purchasing intentions or any parameter questions, please send an email to this mailbox. 
+
 [E-mail](sales@elephantrobotics.com) :
 
 <pre>
@@ -237,7 +247,8 @@ sales@elephantrobotics.com
 </code>
 </pre>
 
-  - 如您在使用本产品的过程中遇到使用问题，请先阅读手册第九章，如果列出的问题无法帮助您解决，而您又有更多的售后问题，请向本邮箱发送电子邮件。  
+  - If you encounter any problems while using this product, please read Chapter 9 of the manual first. If the problems listed cannot help you solve them and you have more after-sales questions, please send an email to this email address.
+
 [E-mail](support@elephantrobotics.com) :
 
 <pre>
@@ -246,15 +257,14 @@ support@elephantrobotics.com
 </code>
 </pre>
 
-我们将在 1-2 个工作日内给予答复；
+We will respond within 1-2 business days.
 
-**微信**:  
-我们只为通过微信购买 mycobot 系列产品的用户提供一对一服务。
+WeChat:
+We only provide one-on-one support for mycobot product purchases made through WeChat.
 
 ![learning](../resources/3-UserNotes/3.1-7.png)
 
-
 ---
 
-[← 上一章](../2-ProductFeature/README.md) | [下一章 →](../4-FirstInstallAndUse/README.md)
+[← Previous Chapter](../2-ProductFeature/README.md) | [Next Chapter →](../4-FirstInstallAndUse/README.md)
 

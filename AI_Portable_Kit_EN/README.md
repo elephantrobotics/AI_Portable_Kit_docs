@@ -1,52 +1,52 @@
-# AI 便携套装 开发者指南
+# AI Portable Kit Developer Guide
 
-欢迎来到 AI 便携套装 开发者指南的官方文档库！我们的目标是提供全面且易于理解的指南，帮助用户使用Python编程语言和开发环境对 AI 便携套装 进行编程和控制。
+Welcome to the official documentation repository for the AI ​​Portable Kit Developer Guide! Our goal is to provide comprehensive and easy-to-understand guides to help users program and control the AI ​​Portable Kit using the Python programming language and development environment.
 
-## 入门
+## Getting Started
 
-在开始之前，请确保您熟悉基本的 Git 操作和 Markdown 语法。这将帮助您更有效地贡献和检索信息。
+Before you begin, please ensure you are familiar with basic Git operations and Markdown syntax. This will help you contribute and retrieve information more efficiently.
 
-## 文档跳转链接
+## Documentation Redirect Links
 
 [SUMMARY_AI_Portable_Kit_EN](./)
 
 [SUMMARY_AI_Portable_Kit_CN](./)
 
-## 如何报告问题
+## Reporting Issues
 
-如果您在使用指南或使用 myAGV 进行开发时遇到任何问题，请按照以下步骤操作：
+If you encounter any issues while using the guide or developing with myAGV, please follow these steps:
 
-1. 访问 [Issues page](https://github.com/elephantrobotics/AI_Portable_Kit_docs/issues).
-2. 单击“New Issue”按钮创建新问题。
-3. 提供尽可能多的详细信息，包括但不限于：
-   - 问题描述。
-   - 重现步骤。
-   - 预期结果与实际结果。
-   - 屏幕截图或代码片段。
-4. 提交后，请耐心等待我们的团队回复。
+1. Visit the [Issues page](https://github.com/elephantrobotics/AI_Portable_Kit_docs/issues).
+2. Click the "New Issue" button to create a new issue.
+3. Provide as much detail as possible, including but not limited to:
+- Description of the issue.
+- Steps to reproduce.
+- Expected vs. actual results.
+- Screenshots or code snippets.
+4. After submitting, please wait patiently for a response from our team.
 
-## 如何提交合并请求
+## How to submit a merge request
 
-我们热烈欢迎并鼓励社区成员改进文档或添加新内容。如果您希望做出贡献，请按照以下步骤操作：
+We warmly welcome and encourage community members to improve the documentation or add new content. If you would like to contribute, please follow these steps:
 
-1. 将此存储库分叉到您的 GitHub 帐户。
-2. 将分叉的存储库克隆到本地计算机。
-3. 为您的更改创建一个新分支。
-4. 进行更改后，将其提交到您的分叉。
-5. 在 GitHub 上，向原始存储库的`main`分支提交合并请求 (MR)。
-6. 在您的 MR 描述中，清楚地描述您所做的更改及其原因。
-7. 提交您的 MR 后，请耐心等待我们的团队对其进行审核。
+1. Fork this repository to your GitHub account.
+2. Clone the forked repository to your local computer.
+3. Create a new branch for your changes.
+4. After making your changes, commit them to your fork.
+5. On GitHub, submit a merge request (MR) to the `main` branch of the original repository.
+6. In your MR description, clearly describe the changes you made and the rationale for them.
+7. After submitting your MR, please wait patiently for our team to review it.
 
-## 贡献指南
+## Contribution Guidelines
 
-我们的目标是保持一个开放和热情的环境，让每个人都能轻松地做出贡献。由于我们目前没有行为准则，我们要求您在项目内的互动中保持专业和尊重。
+Our goal is to maintain an open and welcoming environment where everyone feels comfortable contributing. Since we don't currently have a code of conduct, we ask that you remain professional and respectful in your interactions within the project.
 
-## 添加行为准则
+## Adding a Code of Conduct
 
-我们建议在您的项目中添加行为准则，以营造积极包容的环境。GitHub 提供诸如贡献者契约之类的模板，该模板在开源项目中被广泛采用。您可以在存储库中创建`CODE_OF_CONDUCT.md`，并在添加后在此处引用它。
+We recommend adding a code of conduct to your project to foster a positive and inclusive environment. GitHub provides templates such as the Contributor Covenant, which is widely adopted by open source projects. You can create a `CODE_OF_CONDUCT.md` in your repository and reference it here after adding it.
 
-## 支持和联系
+## Support and Contact
 
-如果您需要任何帮助，或者有建议或反馈，请随时与我们联系。
+If you need any help, have suggestions, or have feedback, please feel free to contact us.
 
-感谢您的支持和贡献！
+Thank you for your support and contributions!
