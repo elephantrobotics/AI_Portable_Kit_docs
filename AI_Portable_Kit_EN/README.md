@@ -8,9 +8,9 @@ Before you begin, please ensure you are familiar with basic Git operations and M
 
 ## Documentation Redirect Links
 
-[AI_Portable_Kit_EN Gitbook]([./](https://docs.elephantrobotics.com/docs/AI_Portable_Kit_en/))
+[AI_Portable_Kit_EN Gitbook](https://docs.elephantrobotics.com/docs/AI_Portable_Kit_en/)
 
-[AI_Portable_Kit_CN Gitbook]([./](https://docs.elephantrobotics.com/docs/AI_Portable_Kit_cn/))
+[AI_Portable_Kit_CN Gitbook](https://docs.elephantrobotics.com/docs/AI_Portable_Kit_cn/)
 
 ## Reporting Issues
 
