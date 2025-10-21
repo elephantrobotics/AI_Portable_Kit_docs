@@ -41,7 +41,7 @@
   - [6.4 Electronics and servo knowledge](6-RoboticArmKnowledge/6.4-motors_and_servos.md)
   - [6.5 Robot kinematics]()
     - [6.5.1 myCobot Six-axis collaborative series](6-RoboticArmKnowledge/6.5-robot_kinematics.md)
-    - [6.5.2 myCobot Four-axis collaborative series]()
+    <!-- - [6.5.2 myCobot Four-axis collaborative series]() -->
 
 - [7 Basic functional applications](7-BasicFunctionApplication/README.md)
   - [7.1 myStudio](7-BasicFunctionApplication/7.1-myStudio/README.md)
