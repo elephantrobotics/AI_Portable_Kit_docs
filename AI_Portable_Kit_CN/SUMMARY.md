@@ -41,7 +41,7 @@
   - [6.4 电子与舵机知识](6-RoboticArmKnowledge/6.4-motors_and_servos.md)
   - [6.5 机器人运动学]()
     - [6.5.1 myCobot 六轴协作系列](6-RoboticArmKnowledge/6.5-robot_kinematics.md)
-    <!-- - [6.5.2 myCobot 四轴协作系列]() -->
+    - [6.5.2 myCobot 四轴协作系列](6-RoboticArmKnowledge/6.5-robot_kinematics_4.md)
 
 - [7 基础功能应用](7-BasicFunctionApplication/README.md)
   - [7.1 myStudio](7-BasicFunctionApplication/7.1-myStudio/README.md)
