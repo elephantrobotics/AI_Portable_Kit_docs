@@ -35,7 +35,7 @@
 
 - [6 机械臂知识快速学习]()
  
-  - [6.1 知识准备]()
+  - [6.1 知识准备](6-RoboticArmKnowledge/6.1-knowleged.md)
   - [6.2 串联机器人](6-RoboticArmKnowledge/6.2-Serial_robots.md)
   - [6.3 电子背景知识](6-RoboticArmKnowledge/6.3-electric_knowledge.md)
   - [6.4 电子与舵机知识](6-RoboticArmKnowledge/6.4-motors_and_servos.md)
