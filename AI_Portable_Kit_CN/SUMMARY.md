@@ -31,7 +31,10 @@
   - [5.3 二维码识别](5-BasicAlgorithmFunction/5.3-encode_recognition.md)
   - [5.4 特征点识别](5-BasicAlgorithmFunction/5.4-feature_recognition.md)
   - [5.5 yolov5识别](5-BasicAlgorithmFunction/5.5-yolov5_recognition.md)
-  - [5.6 注意事项](5-BasicAlgorithmFunction/5.6-precautions.md)
+  - [5.6 AiKit可视化软件](5-BasicAlgorithmFunction/5.7-aikit_ui.md)
+  - [5.7 手柄控制](5-BasicAlgorithmFunction/5.8-handle_control.md)
+  - [5.8 STAG码跟踪案例](5-BasicAlgorithmFunction/5.9-stag_case.md)
+  - [5.9 注意事项](5-BasicAlgorithmFunction/5.6-precautions.md)
 
 - [6 机械臂知识快速学习]()
  

@@ -31,7 +31,10 @@
   - [5.3 QR code recognition](5-BasicAlgorithmFunction/5.3-encode_recognition.md)
   - [5.4 Feature point recognition](5-BasicAlgorithmFunction/5.4-feature_recognition.md)
   - [5.5 yolov5 recognition](5-BasicAlgorithmFunction/5.5-yolov5_recognition.md)
-  - [5.6 Precautions](5-BasicAlgorithmFunction/5.6-precautions.md)
+  - [5.6 AiKit visualization software](5-BasicAlgorithmFunction/5.7-aikit_ui.md)
+  - [5.7 Controller control](5-BasicAlgorithmFunction/5.8-handle_control.md)
+  - [5.8 STAG code tracking case](5-BasicAlgorithmFunction/5.9-stag_case.md)
+  - [5.9 Precautions](5-BasicAlgorithmFunction/5.6-precautions.md)
 
 - [6 Quick learning of robotic arm knowledge]()
 
