@@ -1,4 +1,4 @@
-# AI Portable Kit Developer Guide
+# Portable Artificial Intelligence Educational Workstation
 
 Welcome to the official documentation repository for the AI ​​Portable Kit Developer Guide! Our goal is to provide comprehensive and easy-to-understand guides to help users program and control the AI ​​Portable Kit using the Python programming language and development environment.
 
